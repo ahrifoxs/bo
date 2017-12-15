@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>半点一刻</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="content">
+			<!--head_top-->
+			<nav class="navbar navbar-fixed-top head_top">
+    			<div class="container-fluid">
+    				<div class="row">
+    					<div class="col-xs-5">
+    						<div class="navbar-toggle-holder" style="display:block">
+    							<div class="navbar-toggle navbar-left" id="nav_menu">
+    								<i class="glyphicon glyphicon-menu-hamburger icon_menu"></i>
+    								<br />
+    								<span>菜单</span>
+    							</div>
+    						</div>
+    					</div>
+    					<div class="col-xs-2" style="padding:0;">
+    						<a href="javascript:;" class="navbar-brand">
+    							<img src="img/logo.png" alt="logo" class="img-responsive logo"/>
+    						</a>
+    					</div>
+    					<div class="col-xs-5">
+    						<div class="navbar-toggle navbar-right club">
+    							<div class="">
+    								<span>半点俱乐部</span> <br />
+    								<a href="login.html;" target="_blank">登录</a>
+    								<span>或</span>
+    								<a href="reg.html" target="_blank">注册</a>
+    							</div>	
+    						</div>
+    						
+    					</div>
+    				</div>
+    			</div>
+			</nav>
+			<!--mask-->
+			<div id="mask" class="mask"></div>
+			<!--aside-->
+			<div class="aside" id="aside">
+				<div class="navmenu">
+					<ul class="nav nav-stacked sub_nmenu1">
+						<li style="padding-top:10px;"><a href="javascript:;">English</a></li>
+        				<li><a href="javascript:;">半点一刻门店</a></li>
+        				<li style="padding-bottom:10px;"><a href="javascript:;">天猫旗舰店</a></li>
+					</ul>
+					<ul class="nav nav-stacked sub_nmenu2">
+        				<li><a href="javascript:;">首页</a></li>
+        				<li>
+            				<a href="javascript:;">新品推荐</a>
+            				<ul class="nav sub_list">
+                				<li><a href="newProduct.html" target="_blank">当季新品</a></li>
+                				<li><a href="javascript:;">星巴克月饼</a></li>
+                				<li><a href="javascript:;">咖啡融合冰淇淋</a></li>
+                				<li><a href="javascript:;">冷萃冰咖啡</a></li>
+                				<li><a href="javascript:;">气质 <sup>MT</sup> 冷萃咖啡</a></li>
+                				<li><a href="javascript:;">早安新一天</a></li>
+                				<li><a href="javascript:;">星巴克ORIGAMI<sup>MT</sup></a></li>
+            				</ul>                
+        				</li>
+        				<li><a href="javascript:;">星享俱乐部</a></li>
+        				<li>
+        					<a href="javascript:;">星巴克移动应用</a>
+            				<ul class="nav sub_list">
+                				<li><a href="javascript:;">星巴克移动应用</a></li>
+                				<li><a href="javascript:;">星巴克 Apple Watch</a></li>
+            				</ul>
+        				</li>
+        				<li><a href="javascript:;">星礼卡</a></li>
+        				<li>
+        					<a href="javascript:;">咖啡文化</a>
+            				<ul class="nav sub_list">
+                				<li><a href="javascript:;">咖啡文化</a></li>
+                				<li><a href="javascript:;">星巴克臻选<sup>MT</sup>咖啡</a></li>
+                				<li><a href="javascript:;">如何冲泡咖啡</a></li>
+            				</ul>
+        				</li>
+        				<li>
+        					<a href="javascript:;">饮品美食</a>
+            				<ul class="nav sub_list">
+               	 				<li><a href="list.html" target="_blank">饮品</a></li>
+                				<li><a href="javascript:;">星巴克美食</a></li>
+                				<li><a href="javascript:;">星巴克咖啡</a></li>
+                				<li><a href="javascript:;">星巴克VIA&copy;免煮咖啡</a></li>
+                				<li><a href="javascript:;">茶瓦纳<sup>MT</sup></a></li>
+            				</ul>
+        				</li>
+        				<li>
+        					<a href="javascript:;">关于我们</a>
+            				<ul class="nav sub_list">
+                				<li><a href="javascript:;">企业新闻</a></li>
+                				<li><a href="javascript:;">我们的使命和价值观</a></li>
+                				<li><a href="javascript:;">星巴克责任</a></li>
+                				<li><a href="javascript:;">工作在星巴克中国</a></li>
+                				<li><a href="javascript:;">加入星巴克</a></li>
+                				<li><a href="javascript:;">星巴克在中国</a></li>
+                				<li><a href="javascript:;">历史回顾</a></li>
+            				</ul>
+        				</li>
+        				<li>
+        					<a href="javascript:;">帮助中心</a>
+            				<ul class="nav sub_list">
+                				<li><a href="javascript:;">常见问题</a></li>
+                				<li><a href="javascript:;">联系我们</a></li>
+                				<li><a href="javascript:;">使用条款</a></li>
+                				<li><a href="javascript:;">隐私权政策</a></li>
+            				</ul>
+        				</li>
+    				</ul>
+				</div>
+			</div>
+			<div style="height:102px"></div>	
+			<!--homePage-->
+			<div class="homePage" id="homePage">
+				<!--banner-->
+				<div id="banner" class="carousel slide" data-ride="carousel">
+					<!--btn-->
+					<ul class="carousel-indicators">
+						<li data-target="#banner" data-slide-to="0" class="active"></li>
+						<li data-target="#banner" data-slide-to="1"></li>
+					</ul>
+					<!--pic-->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="img/lunbo1.png" alt="轮播图1" />
+						</div>
+						<div class="item">
+							<img src="img/lunbo2.png" alt="轮播图2" />
+						</div>
+					</div>
+				</div>
+				<!--rewards-->
+				<div class="rewards">
+					<div class="container">
+						<div class="row">
+							<!--rewards-mark-->
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 rewards-mark">
+								<!--rewards-mark-label-->
+								<p class="rewards-mark-label">半点卡</p>
+								<!--rewards-mark-logo-->
+								<div class="rewards-mark-logo">
+									<span>FORTY-FIVE MINUTES</span><br />
+									<span>
+										REWARDS
+                            			<i class="stars"></i>
+									</span>
+								</div>
+							</div>
+							<!--rewards-content-->
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 rewards-content">
+								<!--rewards_content_title-->
+								<p class="rewards_content_title">半点俱乐部</p>
+								<!--rewards_content_txt-->
+                        		<p class="rewards_content_txt">开启您的半点之旅，会员等级越高，好礼越丰富</p>
+                        		<!--rewards_content_btns-->
+                        		<div class="rewards_content_btns">
+                            		<a href="javascript:;" class="btn btn-lg btn1">注册</a>
+                            		<a href="javascript:;" class="btn btn-lg btn2">登录</a>
+                            		<a href="javascript:;" class="rewards-btn-link">了解更多 >></a>
+                        		</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--app-->
+				<div class="app">
+					<div class="container">
+						<div class="row app-box">
+							<!--app-device-->
+							<div class="col-md-4 col-sm-4 col-xs-4 app-device"></div>
+							<!--app-download-->
+							<div class="col-md-3 col-sm-3 col-xs-3 app-download">
+								<!--二维码-->
+								<div class="app-download-qrcode"></div>
+								<!--按钮-->
+								<div class="app-download-btns">
+									<a href="javascript:;" class="icon">&#xe65c;</a>
+                            		<a href="javascript:;" class="icon">&#xe614;</a>
+									<span class="app-download-btns-info">扫码下载APP</span>
+								</div>
+							</div>
+							<!--app-content-->
+							<div class="col-md-5 col-sm-5 col-xs-5 app-content">
+								<!--app-content-intro-->
+								<div class="app-content-intro">
+								下载全新半点一刻中国官方APP，开启更便捷的半点一刻体验
+								</div>
+								<!--app-btn-link-->
+								<a href="javascript:;" class="app-btn-link">了解更多 >></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--中秋-->
+				<div>
+					<a href="javascript:;" title="月饼礼盒">
+						 <img src="img/banner_home.jpg" alt="中秋礼盒" class="img-responsive"/>
+					</a>
+				</div>
+				<!--moasic-->
+				<div class="moasic row">
+					<a href="javascript:;" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<img src="img/latte_l.jpg" alt="左图" class="img-responsive"/>
+					</a>
+					<a href="javascript:;" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<img src="img/latte_r.jpg" alt="右图" class="img-responsive"/>
+					</a>
+				</div>
+				<!--yxs-->
+				<div class="yxs">
+					<div class="container">
+						<!--yxs-container-->
+						<div class="row yxs-container">
+							<div class="col-md-3 col-sm-3 col-xs-3 yxs-container-img1"></div>
+							<div class="col-md-3 col-sm-3 col-xs-3 yxs-container-img2"></div>
+							<div class="col-md-3 col-sm-3 col-xs-3 yxs-container-img3"></div>
+							<div class="col-md-3 col-sm-3 col-xs-3 yxs-container-img4"></div>
+						</div>
+					</div>
+				</div>
+				<!--apple-watch-->
+				<div class="apple-watch">
+					<!--apple-watch-img-->
+					<div class="apple-watch-img"></div>
+					<!--apple-watch-intro-->
+					<div class="apple-watch-intro">
+						<p>
+							点享更同步。现在您可以通过AppleN Watch打开半点一刻移动应用。更便捷的支付、查询
+							点享卡还有查找附近的门店
+							<br />
+							 <a href="javascript:;" class="apple-watch-link">了解更多 >></a>
+						</p>
+					</div>
+					<!--apple-watch-download-->
+					<div class="apple-watch-download">
+						<!--二维码-->
+						<div class="app-download-qrcode"></div>
+						<span class="app-download-btns-info">扫码下载APP</span>
+					</div>
+				</div>
+				<!--collection-->
+				<div class="collection">
+					<h2>半点一刻精选</h2>
+					<p class="subtitle">在半点一刻天猫旗舰店会发现更多半点饮品心意</p>
+					<!--collection-box-->
+					<div class="row collection-box">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+							<a href="javascript:;" class="thumbnail">
+								<img src="img/box_img1.png"/>
+								<div class="caption">
+									<b class="img_title">点享卡</b>
+                            		<p class="img_des">开始你的专属旅程</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+							<a href="javascript:;" class="thumbnail">
+								<img src="img/box_img2.jpg"/>
+								<div class="caption">
+									<b class="img_title">点享卡</b>
+                            		<p class="img_des">开始你的专属旅程</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+							<a href="javascript:;" class="thumbnail">
+								<img src="img/box_img3.jpg"/>
+								<div class="caption">
+									<b class="img_title">点享卡</b>
+                            		<p class="img_des">开始你的专属旅程</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+							<a href="javascript:;" class="thumbnail">
+								<img src="img/box_img4.jpg"/>
+								<div class="caption">
+									<b class="img_title">点享卡</b>
+                            		<p class="img_des">开始你的专属旅程</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!--reserve-->
+				<div class="reserve">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-6">
+								<img src="img/reserve.png" alt="reserve" class="img-responsive"/>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 text-center">
+								<h3>我们优质的咖啡产品</h3>
+								<p>我们持续在全世界各地寻找优质而稀少的咖啡豆，我们喜爱与您分享我们的新发现。我们在星巴克半点一刻的总部为您臻选™咖啡烘焙工坊及品鉴馆为您精心烘焙臻选™咖啡。</p>
+								<a href="javascript:;" class="btn btn-lg">了解更多</a>
+                        		<a href="javascript:;" class="btn btn-lg">在这里购买</a>
+							</div>
+						</div>
+					<!--	
+						<div class="myTable">
+							<div class="cell">
+								<img src="img/reserve.png" alt="reserve" />
+							</div>
+							<div class="cell text-center">
+								<h3>我们优质的咖啡产品</h3>
+								<p>我们持续在全世界各地寻找优质而稀少的咖啡豆，我们喜爱与您分享我们的新发现。我们在星巴克半点一刻的总部为您臻选™咖啡烘焙工坊及品鉴馆为您精心烘焙臻选™咖啡。</p>
+								<a href="javascript:;" class="btn btn-lg">了解更多</a>
+                        		<a href="javascript:;" class="btn btn-lg">在这里购买</a>
+							</div>
+						</div>
+					-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div id="footer">
+			<div class="container">
+				<!--row1-->
+				<div class="row row1">
+                    <dl class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <dt>最新资讯</dt>
+                        <dd><a href="javascript:;">当季新品</a></dd>
+                        <dd><a href="javascript:;">超级水果茶</a></dd>
+                        <dd><a href="javascript:;">冷萃冰咖啡</a></dd>
+                        <dd><a href="javascript:;">低脂甜味奶霜</a></dd>
+                        <dd><a href="javascript:;">早安新开始</a></dd>
+                        <dd><a href="javascript:;">巧克力芝士奶昔</a></dd>
+                    </dl>
+                    <dl class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <dt>菜品</dt>
+                        <dd><a href="javascript:;">饮品</a></dd>
+                        <dd><a href="javascript:;">半点一刻美食</a></dd>
+                        <dd><a href="javascript:;">慕斯曲奇</a></dd>
+                        <dd><a href="javascript:;">半点一刻免煮咖啡</a></dd>
+                        <dd><a href="javascript:;">茶纯享</a></dd>
+                    </dl>
+                    <dl class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <dt>半点卡</dt>
+                        <dd><a href="javascript:;">注册账户</a></dd>
+                        <dd><a href="javascript:;">注册半点卡</a></dd>
+                        <dd><a href="javascript:;">忘记密码</a></dd>
+                        <dd><a href="javascript:;">报失半点一刻</a></dd>
+                        <dd><a href="javascript:;">购买半点一刻</a></dd>
+                    </dl>
+                    <dl class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <dt>半点一刻礼品卡</dt>
+                        <dd><a href="javascript:;">管理半点卡</a></dd>
+                        <dd><a href="javascript:;">申请发票</a></dd>
+                        <dd><a href="javascript:;">购买点礼卡</a></dd>
+                    </dl>
+                </div>
+                <!--row2-->
+                <div class="row row2">
+                    <dl class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <dt>关于半点一刻</dt>
+                        <dd><a href="javascript:;">企业新闻</a></dd>
+                        <dd><a href="javascript:;">我们的使命和价值观</a></dd>
+                        <dd><a href="javascript:;">企业责任</a></dd>
+                        <dd><a href="javascript:;">工作在半点一刻</a></dd>
+                        <dd><a href="javascript:;">加入半点一刻</a></dd>
+                        <dd><a href="javascript:;">历史回顾</a></dd>
+                    </dl>
+                    <dl class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <dt>快捷链接</dt>
+                        <dd><a href="javascript:;">天猫旗舰店</a></dd>
+                        <dd><a href="javascript:;">半点一刻门店</a></dd>
+                        <dd><a href="javascript:;">联系半点一刻</a></dd>
+                    </dl>
+                    <dl class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <dt>常见问题</dt>
+                        <dd><a href="javascript:;">半点卡</a></dd>
+                        <dd><a href="javascript:;">点礼卡</a></dd>
+                        <dd><a href="javascript:;">移动应用</a></dd>
+                        <dd><a href="javascript:;">电子发票</a></dd>
+                    </dl>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 download-section">
+                        <!--二维码-->
+                        <p class="footer-app_code"></p>
+                        <!--扫码下载app-->
+                        <p class="footer-download">
+                            <a href="javascript:;" class="icon">&#xe65c;</a>
+                            <a href="javascript:;" class="icon">&#xe614;</a>
+                            <br/>
+                          	<span>扫码下载APP</span>
+                        </p>
+                    </div>
+                </div>
+                <!--row3-->
+                <div class="row clearfix row3">
+                    <div class="col-lg-8 col-md-8 col-xs-8">
+                        <p>© 2017 Starbucks Corporation</p>
+                        <a href="javascript:;">All rights reserved. 沪ICP备17003747号</a>
+                        <a href="javascript:;"><span class="plice_img"></span> 沪公网安备 31010402000318号</a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-4">
+                        <a href="javascript:;" class="weixin_img"></a>
+                        <a href="javascript:;" class="weibo_img"></a>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>

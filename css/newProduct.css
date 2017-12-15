@@ -1,0 +1,43 @@
+/*banner*/
+.newProduct .jumbotron{
+    height: 660px;
+    background:url("../img/newProduct/banner.png") no-repeat center top/cover;
+    position: relative;
+}
+.newProduct .jumbotron p.ban_des{
+    width:40%;
+    font-size:2.4rem;
+    color:#fff;
+    position: absolute;
+    top:30px;
+    left:40px;
+}
+/*products*/
+/*大标题*/
+.products .pro_h2{
+	text-align: center;
+	margin:40px 0;
+}
+/*row1*/
+.products .row1,
+.products .row2{
+	display:flex;
+	align-items:center;
+}
+.products .row1>div{
+	flex:1;
+	display:inline-flex;
+	justify-content:center;
+}
+.products .row2>div{
+	flex:1;
+	display:inline-flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+
+
+
+

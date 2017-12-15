@@ -1,0 +1,219 @@
+/*login*/
+.login{
+	padding:100px 0;
+}
+.login a{
+    color: #b89f7a;
+    font-weight: 700;
+    font-size: 14px;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+.login span{
+	font-size:14px;
+}
+/*title*/
+.login h1{
+	margin:0;
+}
+/*line*/
+.login span.splitline{
+	width: 140px;
+    margin: 40px auto 50px;
+    border-top: 1px solid #ddd;
+}
+/*intro*/
+.login .intro{
+	color: #838383;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+/*form*/
+@media (min-width: 1281px)
+.login .box.container {
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.login .container{
+	width:740px;
+	max-width:740px;
+}
+/*box*/
+.login .box{
+	background: #f2f2f2;
+    padding: 70px 12%
+}
+.login .box .form .item{
+	width:100%;
+	margin-bottom:35px;
+}
+/*label*/
+.login .box .form .item label{
+	display: block;
+	font-weight:normal;
+    font-size: 16px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    width: 100%;
+}
+/*input*/
+.login .box .form .item input:not([type=checkbox]){
+	border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    background: #fff;
+    height: 42px;
+    width: 100%;
+}
+/*erroInfo*/
+.login .box .form .item span.erroInfo{
+	color: #fff;
+    background: #c9391f;
+    display: none;
+    font-size: 14px;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+.login .box .form .item .form-control-feedback{
+	top:50%;
+}
+/*checkbox*/
+.login .box .form .checkbox.item input,
+.login .box .form .checkbox.item span{
+	float: left;
+    line-height: 22px;
+    height: 22px;
+    vertical-align: middle;
+}
+.login .box .form .checkbox.item input{
+	width:25px;
+	margin-top:-1px;
+}
+.login .box .form .checkbox.item span{
+	font-size:1rem;
+	margin-left:6px;
+}
+/*验证码盒子*/
+.login .box .form .test_box{
+	width:300px;
+	height:160px;
+	padding:8px;
+	background-color:#fff;
+}
+/*提示*/
+.login .box .form .test_box .point{
+	font-size:12px;
+}
+/*验证码*/
+.login .box .form .test_box .test{
+	display:flex;
+	margin-bottom:10px;
+	border:1px solid #e5e5e5;
+}
+.login .box .form .test_box .test .left,
+.login .box .form .test_box .test .right{
+	flex:1;
+	height:50px;
+}
+.login .box .form .test_box .test .left img,
+.login .box .form .test_box .test .right input{
+	height:100%;
+	width:100%;
+}
+.login .box .form .test_box .test .right input{
+	border:none;
+	border-left:1px solid #E5E5E5;
+}
+/*验证按钮*/
+.login .box .form .test_box .char_btn a.icon{
+	display: inline-block;
+	font-size:22px;
+	width: 22px;
+    height: 22px;
+    line-height:22px;
+    text-align: center;
+    color:rgb(179,179,179);
+    margin:7px 10px 0 0;
+}
+.login .box .form .test_box .char_btn a.sure{
+    color:#fff;
+    letter-spacing:2.5px;
+    text-indent:0.5em;
+    border-radius:5px;
+    background: #b89f7a;
+    border-color: #b89f7a;
+    cursor: pointer;
+}
+/*登录/注册*/
+.login .box .form .antion .btn,
+.login .box .form .link-btn .btn{
+    width: 420px;
+    height: 50px;
+    margin: auto;
+    line-height:38px;
+    padding:5px 50px;
+    font-size:15px;
+    background-color:transparent;
+    transition:all 1s;
+}
+.login .box .form .antion .btn{
+     color: #b89f7a;
+     border:2px solid #b89f7a;
+ }
+.login .box .form .antion .btn:hover{
+    color: #fff;
+    background-color:#b89f7a;
+}
+.login .box .form .link-btn .btn{
+    color: #6a6a6a;
+    border:2px solid #6a6a6a;
+}
+.login .box .form .link-btn .btn:hover{
+    color: #fff;
+    background-color:#6a6a6a;
+}
+/*divider*/
+.login .box .form .divider{
+	margin:40px 0;
+	position: relative;
+}
+.login .box .form .divider .line{
+	width:100%;
+	border-top:1px solid #ddd;
+}
+.login .box .form .divider span.text{
+	font-size:1.6rem;
+	color:#ddd;
+	position:absolute;
+	padding:0 10px;
+	top:-12.5px;
+	left:50%;
+	margin-left:-20.5px;
+	background-color:#F2F2F2;
+}
+/*notes*/
+.login .box .notes+.notes{
+	margin-top:15px;
+}
+.login .box .notes{
+	color: #838383;
+    margin: 30px 0 0;
+    text-align: center;
+    font-size:1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

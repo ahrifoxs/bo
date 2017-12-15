@@ -1,0 +1,321 @@
+
+/*homePage*/
+.homePage p{
+	color: #3d3d3d;
+    font-family: AvenirLight, 'HelveticaNeue-Light', 'Helvetica Neue', arial, "Hiragino Sans GB", "冬青黑体", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
+}
+.homePage .btn{
+	font-size:1rem;
+	padding:2.5% 10%;
+	border: 2px solid #a98e67;
+	border-radius:0;
+	color:#a98e67;
+	margin:3% 10% 3% 0;
+}
+.homePage .btn:hover{
+	background-color:#a98e67;
+	color:#fff;
+}
+/*rewards*/
+.rewards{background-color:#0f0f0f;}
+/*rewards-mark*/
+.rewards .container .rewards-mark{
+	height:220px;
+	padding:5.5% 0 0 18%;
+	color:#fff;
+	background:url("../img/rewards_bg.png") no-repeat 0 0/contain;	
+}
+/*rewards-mark-label*/
+.rewards .rewards-mark .rewards-mark-label{
+	font-size:1.125rem;
+	color:#fff;
+	margin-bottom:0;
+}
+/*rewards-mark-logo*/
+.rewards .rewards-mark .rewards-mark-logo span:first-child{
+	font-size:0.75rem;
+	font-weight:600;
+	letter-spacing:1.5px;
+}
+.rewards .rewards-mark .rewards-mark-logo span:last-child{
+	font-size:1.5rem;
+	font-weight:700;
+	letter-spacing:1.5px;
+	position:relative;
+	top:-7px;
+}
+.rewards .rewards-mark .rewards-mark-logo .stars{
+	position: absolute;
+    top:-12%;
+    right:-30%;
+    width:30%;
+    height:140%;
+    background:url("../img/stars.png") no-repeat center;
+}
+/*rewards-content*/
+.rewards .rewards-content{
+	padding-top:4%;
+}
+/*rewards_content_title*/
+.rewards .rewards-content .rewards_content_title{
+	color:#fff;
+	font-size:1.56rem;
+	line-height:28px;
+	margin-bottom:0;
+}
+/*rewards_content_txt*/
+.rewards .rewards-content .rewards_content_txt{
+	color:#fff;
+	margin-bottom:5px;
+}
+/*rewards-btn-link && app-btn-link*/
+.rewards .rewards-content .rewards_content_btns .rewards-btn-link,
+.app .app-content .app-btn-link{
+	font-size:0.875rem;
+	color:#a98e67;
+}
+.rewards .rewards-content .rewards_content_btns .rewards-btn-link:hover,
+.app .app-content .app-btn-link:hover,
+.apple-watch .apple-watch-intro  .apple-watch-link:hover{
+	text-decoration:none;
+	color: #967a50;
+}
+/*app*/
+.app{
+	background:url(../img/app_bg.gif) repeat-x center scroll;
+}
+.app .container,
+.app .container .app-box{
+	height:220px;
+}
+/*app-device*/
+.app .app-device{
+	height:90%;
+	background:url(../img/app_device.png) no-repeat center bottom/contain;
+	margin-top:20px;
+}
+
+/*app-download*/
+.app .app-download{
+	height:100%;
+	text-align: center;
+}
+/*二维码*/
+.app .app-download .app-download-qrcode{
+	width:48%;
+	height:52%;
+	margin:20% auto 0;
+	background:url(../img/QR_code.png) no-repeat center/contain;
+}
+/*按钮*/
+.app .app-download .app-download-btns a{
+	text-decoration:none;
+	color:#999;
+	font-size:1.0625rem;
+	margin-right:8px;
+	transition:all 1s;
+}
+.app .app-download .app-download-btns a:hover{
+	color:#333;
+}
+.app .app-download .app-download-btns span{
+	display:inline-block;
+	font-size:0.875rem;
+	padding-left:5px;
+	border-left:1px solid #000;
+}
+/*app-content*/
+.app .app-content{
+	
+}
+.app .app-content .app-content-intro{
+	font-size:1.56rem;
+	color:#3d3d3d;
+	line-height:1.4;
+	margin:10% 0 4% 0;
+}
+/*moasic*/
+.moasic{
+	margin:0;
+}
+.moasic a{
+	display:block;
+	padding:0;
+}
+/*yxs*/
+.yxs{
+    background: #106e4b;
+}
+/*yxs-container*/
+.yxs .yxs-container{
+	width:805px;
+	height:157px;
+	padding:30px 0;
+	margin: auto;
+}
+/*yxs-container-img*/
+.yxs .yxs-container .yxs-container-img1{
+	height:100%;
+	background:url(../img/yxs_title.jpg) no-repeat center/contain;
+}
+.yxs .yxs-container .yxs-container-img2{
+	height:100%;
+	background:url(../img/yxs-qrcode.png) no-repeat center/contain;
+}
+.yxs .yxs-container .yxs-container-img3{
+   	height:100%;
+    background:url("../img/yxs_pic.jpg") no-repeat center/contain;
+}
+.yxs .yxs-container .yxs-container-img4{
+   	height:100%;
+    background:url("../img/yxs_txt.png") no-repeat center/contain;
+}
+/*apple-watch*/
+.apple-watch{
+	width:100%;
+	height: 220px;
+	text-align: center;
+	background:url(../img/web-bg.png) repeat-x;
+}
+/*apple-watch-img*/
+.apple-watch .apple-watch-img{
+	display:inline-block;
+	vertical-align: top;
+	width:30%;
+	height:220px;
+	background:url(../img/web-iwatch-cn.png) no-repeat center/contain;
+}
+/*apple-watch-intro*/
+.apple-watch .apple-watch-intro{
+	display:inline-block;
+	width:30%;
+	vertical-align: top;
+}
+.apple-watch .apple-watch-intro p{
+	padding:5% 7% 0 7%;
+	text-align:left;
+	font-size:1.0625rem;
+}
+.apple-watch .apple-watch-intro .apple-watch-link{
+	font-size:0.875rem;
+	color:#a98e67;
+}
+/*apple-watch-download*/
+.apple-watch .apple-watch-download{
+	display:inline-block;
+	width:30%;
+	height:70%;
+	vertical-align:top;
+	padding:35px 0 0 20px;
+	margin:0;
+}
+/*二维码*/
+.apple-watch .apple-watch-download .app-download-qrcode{
+	width:100%;
+	height:80%;
+	background:url(../img/yxs-qrcode.png) no-repeat center/contain;
+}
+/*collection*/
+.collection{
+	text-align: center;
+	padding:80px 16px;
+	background-color:#f5f5f5;
+}
+.collection h2{
+	margin:20px 0;
+}
+.collection .subtitle{
+	margin-bottom:80px;
+}
+/*collection-box*/
+.collection .collection-box{
+	margin:0;
+	text-align: center;
+}
+.collection .collection-box a{
+	text-decoration:none;
+	box-shadow:0 0 2px #ccc;
+	transition:all 1s;
+}
+.collection .collection-box a:hover{
+	box-shadow:0 0 50px #ccc;
+}
+.collection .collection-box a:hover b,
+.collection .collection-box a:hover p{
+	color:#a98e67;
+}
+/*box-content*/
+.collection .collection-box a b{
+	display: block;
+    font-size: 1.125rem;
+    color: #2F2F2F;
+    margin-top: 15px;
+    font-weight:600;
+    transition:all 1s;
+}
+.collection .collection-box a p{
+    font-size: 0.875rem;
+    color: #707175;
+    transition:all 1s;
+}
+/*reserve*/
+.reserve{
+	background-color: #060608;
+    padding: 40px 0;
+}
+.reserve h3{
+	font-weight: 900;
+    font-size:0.8rem;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #a98e67;
+    letter-spacing: 3px;
+}
+.reserve p{color:#f4f4f4;}
+
+@media (min-width: 360px) and (max-width: 992px) {
+/*rewards-mark*/
+.rewards .container .rewards-mark{
+	padding-top:10%;
+}	
+/*rewards-content*/
+.rewards .rewards-content{
+	padding-top:10%;
+}
+/*app-box*/
+.app .container,
+.app .container .app-box{
+	height:194px;
+}
+/*app-download*/
+.app .app-download{
+	height:100%;
+	text-align: center;
+}
+/*二维码*/
+.app .app-download .app-download-qrcode{
+	width:48%;
+	height:30%;
+	margin:40% auto 0;
+}
+/*按钮*/
+.app .app-download .app-download-btns span{
+	padding-left:0;
+	border-left:none;
+}
+.app .app-content .app-content-intro{
+	margin-top:26%;
+}
+
+/*yxs-container*/
+.yxs .yxs-container{
+	width:340px;
+	height:120px;
+}
+/*collection*/
+.collection .collection-box a{
+	/*height:100px;*/
+}
+
+
+}

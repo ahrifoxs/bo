@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>半点一刻</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/newProduct.css" />
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/common.css" />
+    <script src="js/common.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="content">
+			<!--head_top-->
+			<nav class="navbar navbar-fixed-top head_top">
+    			<div class="container-fluid">
+    				<div class="row">
+    					<div class="col-xs-5">
+    						<div class="navbar-toggle-holder" style="display:block">
+    							<div class="navbar-toggle navbar-left" id="nav_menu">
+    								<i class="glyphicon glyphicon-menu-hamburger icon_menu"></i>
+    								<br />
+    								<span>菜单</span>
+    							</div>
+    						</div>
+    					</div>
+    					<div class="col-xs-2" style="padding:0;">
+    						<a href="javascript:;" class="navbar-brand">
+    							<img src="img/logo.png" alt="logo" class="img-responsive logo"/>
+    						</a>
+    					</div>
+    					<div class="col-xs-5">
+    						<div class="navbar-toggle navbar-right club">
+    							<div class="">
+    								<span>半点俱乐部</span> <br />
+    								<a href="javascript:;">登录</a>
+    								<span>或</span>
+    								<a href="javascript:;">注册</a>
+    							</div>	
+    						</div>
+    						
+    					</div>
+    				</div>
+    			</div>
+			</nav>
+			<!--mask-->
+			<div id="mask" class="mask"></div>
+			<!--aside-->
+			<div class="aside" id="aside">
+				<div class="navmenu">
+					<ul class="nav nav-stacked sub_nmenu1">
+						<li style="padding-top:10px;"><a href="javascript:;">English</a></li>
+        				<li><a href="javascript:;">半点一刻门店</a></li>
+        				<li style="padding-bottom:10px;"><a href="javascript:;">天猫旗舰店</a></li>
+					</ul>
+					<ul class="nav nav-stacked sub_nmenu2">
+        				<li><a href="javascript:;">首页</a></li>
+        				<li>
+            				<a href="javascript:;">新品推荐</a>
+            				<ul class="nav sub_list">
+                				<li><a href="javascript:;">当季新品</a></li>
+                				<li><a href="javascript:;">星巴克月饼</a></li>
+                				<li><a href="javascript:;">咖啡融合冰淇淋</a></li>
+                				<li><a href="javascript:;">冷萃冰咖啡</a></li>
+                				<li><a href="javascript:;">气质 <sup>MT</sup> 冷萃咖啡</a></li>
+                				<li><a href="javascript:;">早安新一天</a></li>
+                				<li><a href="javascript:;">星巴克ORIGAMI<sup>MT</sup></a></li>
+            				</ul>                
+        				</li>
+        				<li><a href="javascript:;">星享俱乐部</a></li>
+        				<li>
+        					<a href="javascript:;">星巴克移动应用</a>
+            				<ul class="nav sub_list">
+                				<li><a href="javascript:;">星巴克移动应用</a></li>
+                				<li><a href="javascript:;">星巴克 Apple Watch</a></li>
+            				</ul>
+        				</li>
+        				<li><a href="javascript:;">星礼卡</a></li>
+        				<li>
+        					<a href="javascript:;">咖啡文化</a>
+            				<ul class="nav sub_list">
+                				<li><a href="javascript:;">咖啡文化</a></li>
+                				<li><a href="javascript:;">星巴克臻选<sup>MT</sup>咖啡</a></li>
+                				<li><a href="javascript:;">如何冲泡咖啡</a></li>
+            				</ul>
+        				</li>
+        				<li>
+        					<a href="javascript:;">饮品美食</a>
+            				<ul class="nav sub_list">
+               	 				<li><a href="javascript:;">饮品</a></li>
+                				<li><a href="javascript:;">星巴克美食</a></li>
+                				<li><a href="javascript:;">星巴克咖啡</a></li>
+                				<li><a href="javascript:;">星巴克VIA&copy;免煮咖啡</a></li>
+                				<li><a href="javascript:;">茶瓦纳<sup>MT</sup></a></li>
+            				</ul>
+        				</li>
+        				<li>
+        					<a href="javascript:;">关于我们</a>
+            				<ul class="nav sub_list">
+                				<li><a href="javascript:;">企业新闻</a></li>
+                				<li><a href="javascript:;">我们的使命和价值观</a></li>
+                				<li><a href="javascript:;">星巴克责任</a></li>
+                				<li><a href="javascript:;">工作在星巴克中国</a></li>
+                				<li><a href="javascript:;">加入星巴克</a></li>
+                				<li><a href="javascript:;">星巴克在中国</a></li>
+                				<li><a href="javascript:;">历史回顾</a></li>
+            				</ul>
+        				</li>
+        				<li>
+        					<a href="javascript:;">帮助中心</a>
+            				<ul class="nav sub_list">
+                				<li><a href="javascript:;">常见问题</a></li>
+                				<li><a href="javascript:;">联系我们</a></li>
+                				<li><a href="javascript:;">使用条款</a></li>
+                				<li><a href="javascript:;">隐私权政策</a></li>
+            				</ul>
+        				</li>
+    				</ul>
+				</div>
+			</div>
+			<div style="height:102px"></div>	
+			<!--newProduct-->
+			<div class="newProduct" id="newProduct">
+				<!--banner-->
+				<div class="jumbotron">
+					<a href="javascript:;">
+						<p class="ban_des">半点一刻，充满活力的时刻，我们每时每刻都陪伴在您的身边。</p>
+					</a>
+				</div>
+				<!--products-->
+				<div class="products">
+					<div class="container">
+						<h2 class="pro_h2">新品上市</h2>
+						<!--栅格系统-->
+						<!--title-->
+						<h3 class="text-center">霸气组合</h3>
+						<!--row1-->
+						<div class="row1">
+							<div class="text-center">
+								<h3>霸气杨梅 <br/>Superme Waxberry <br/>(杨梅，青茶)</h3>
+							</div>
+							<div class="img_right">
+								<a href="jaascript:;" title="霸气杨梅">
+									<img src="img/newProduct/ice-drink/ice-drink1.jpg" alt="霸气杨梅"/>
+								</a>
+							</div>
+						</div>
+						<!--缩略图-->
+						<div class="row">
+							<div class="col-lg-4 col-md-4 xol-sm-4">
+								<a href="javascript:;" class="thumbnail" title="霸气黄金奇异果">
+									<img src="img/newProduct/ice-drink/ice-drink2.jpg" alt="霸气黄金奇异果"/>
+									<div class="caption">
+										<h4>霸气黄金奇异果</h4>
+                            			<p>Superme Golden Kiwi</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<a href="javascript:;" class="thumbnail" title="霸气橙子">
+									<img src="img/newProduct/ice-drink/ice-drink3.jpg" alt="霸气橙子"/>
+                            		<div class="caption">
+                            			<h4>霸气橙子</h4>
+                            			<p>Superme Orange</p>
+                            		</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<a href="javascript:;" class="thumbnail" title="霸气车厘子">
+                            		<img src="img/newProduct/ice-drink/ice-drink4.jpg" alt="霸气车厘子"/>
+                            		<div class="caption">
+                            			<h4>霸气车厘子</h4>
+                            			<p>Superme Cherry</p>
+                            		</div>
+                        		</a>
+							</div>
+						</div>
+						<!--title-->
+						<h3 class="text-center">茶组合</h3>
+						<!--row1-->
+						<div class="row1">
+							<div class="img_right">
+								<a href="jaascript:;" title="韩柚青茶">
+									<img src="img/newProduct/tea/tea1.jpg" alt="韩柚青茶"/>
+								</a>
+							</div>
+							<div class="text-center">
+								<h3>韩柚青茶 <br/>Han Pomelo Tea <br/>(柚子，青茶)</h3>
+							</div>
+						</div>
+						<!--缩略图-->
+						<div class="row">
+							<div class="col-lg-4 col-md-4 xol-sm-4">
+								<a href="javascript:;" class="thumbnail" title="韩柚冰茶">
+									<img src="img/newProduct/tea/tea2.jpg" alt="韩柚冰茶"/>
+									<div class="caption">
+										<h4>韩柚冰茶</h4>
+                            			<p>Iced Pomelo Tea</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<a href="javascript:;" class="thumbnail" title="韩柚红茶">
+									<img src="img/newProduct/tea/tea3.jpg" alt="韩柚红茶"/>
+                            		<div class="caption">
+                            			<h4>韩柚红茶</h4>
+                            			<p>Korean Pomelo</p>
+                            		</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<a href="javascript:;" class="thumbnail" title="韩柚爱玉冻饮">
+                            		 <img src="img/newProduct/tea/tea4.jpg" alt="韩柚爱玉冻饮"/>
+                            		<div class="caption">
+                            			<h4></h4>韩柚爱玉冻饮
+                            			<p>Grapefruit Sweet Jelly Drink</p>
+                            		</div>
+                        		</a>
+							</div>
+						</div> 
+						<!--title-->
+						<h3 class="text-center">甜点组合</h3>
+						<!--row2-->
+						<div class="row2">
+							<div class="text-center">
+								<h3> 
+									芝心三色薯 <br/>
+                           		 Cheese Tricolor Potato <br/>
+                            		(紫薯、红豆粒、芝士、红薯)
+								</h3>
+								<p>紫薯的鲜甜和Q软的麻薯口感满满的少女心情怀</p>
+							</div>
+							<div class="img_right">
+								<a href="jaascript:;" title="芝心三色薯">
+									<img src="img/newProduct/dessert/dessert1.jpg" alt="芝心三色薯"/>
+								</a>
+							</div>
+						</div>	
+						<div class="row2">
+							<div class="img_right">
+								<a href="jaascript:;" title="耐雪熊宝宝">
+									<img src="img/newProduct/dessert/dessert2.jpg" alt="耐雪熊宝宝"/>
+								</a>
+							</div>
+							<div class="text-center">
+								<h3>
+									耐雪熊宝宝 <br/>
+                                 Nesno Baby Bear <br/>
+                                  (珍珠、巧克力、葡萄干)
+								</h3>
+								<p>一个有内涵的熊宝宝，耳朵里有惊喜哦！</p>
+							</div>
+						</div>	
+						<div class="row2">
+							<div class="text-center">
+								<h3>
+									       超级榴莲王 <br/>
+                           			 Supper Durian <br/>
+                            		(新鲜榴莲肉、面粉、芒果干)
+								</h3>
+								<p>我们找到了最好的D24榴莲奉献上绵绸的、酱爆的、纠缠的王者，忠于一切忠诚之上唯此超级榴莲王，不可辜忘。</p>
+							</div>
+							<div class="img_right">
+								<a href="jaascript:;" title="超级榴莲王">
+									<img src="img/newProduct/dessert/dessert3.jpg" alt="超级榴莲王"/>
+								</a>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div id="footer">
+			<div class="container">
+				<!--row1-->
+				<div class="row row1">
+                    <dl class="col-lg-3 col-md-3 col-sm-3">
+                        <dt>最新资讯</dt>
+                        <dd><a href="javascript:;">当季新品</a></dd>
+                        <dd><a href="javascript:;">超级水果茶</a></dd>
+                        <dd><a href="javascript:;">冷萃冰咖啡</a></dd>
+                        <dd><a href="javascript:;">低脂甜味奶霜</a></dd>
+                        <dd><a href="javascript:;">早安新开始</a></dd>
+                        <dd><a href="javascript:;">巧克力芝士奶昔</a></dd>
+                    </dl>
+                    <dl class="col-lg-3 col-md-3 col-sm-3">
+                        <dt>菜品</dt>
+                        <dd><a href="javascript:;">饮品</a></dd>
+                        <dd><a href="javascript:;">半点一刻美食</a></dd>
+                        <dd><a href="javascript:;">慕斯曲奇</a></dd>
+                        <dd><a href="javascript:;">半点一刻免煮咖啡</a></dd>
+                        <dd><a href="javascript:;">茶纯享</a></dd>
+                    </dl>
+                    <dl class="col-lg-3 col-md-3 col-sm-3">
+                        <dt>半点卡</dt>
+                        <dd><a href="javascript:;">注册账户</a></dd>
+                        <dd><a href="javascript:;">注册半点卡</a></dd>
+                        <dd><a href="javascript:;">忘记密码</a></dd>
+                        <dd><a href="javascript:;">报失半点一刻</a></dd>
+                        <dd><a href="javascript:;">购买半点一刻</a></dd>
+                    </dl>
+                    <dl class="col-lg-3 col-md-3 col-sm-3">
+                        <dt>半点一刻礼品卡</dt>
+                        <dd><a href="javascript:;">管理半点卡</a></dd>
+                        <dd><a href="javascript:;">申请发票</a></dd>
+                        <dd><a href="javascript:;">购买点礼卡</a></dd>
+                    </dl>
+                </div>
+                <!--row2-->
+                <div class="row row2">
+                    <dl class="col-lg-3 col-md-3 col-sm-3">
+                        <dt>关于半点一刻</dt>
+                        <dd><a href="javascript:;">企业新闻</a></dd>
+                        <dd><a href="javascript:;">我们的使命和价值观</a></dd>
+                        <dd><a href="javascript:;">企业责任</a></dd>
+                        <dd><a href="javascript:;">工作在半点一刻</a></dd>
+                        <dd><a href="javascript:;">加入半点一刻</a></dd>
+                        <dd><a href="javascript:;">历史回顾</a></dd>
+                    </dl>
+                    <dl class="col-lg-3 col-md-3 col-sm-3">
+                        <dt>快捷链接</dt>
+                        <dd><a href="javascript:;">天猫旗舰店</a></dd>
+                        <dd><a href="javascript:;">半点一刻门店</a></dd>
+                        <dd><a href="javascript:;">联系半点一刻</a></dd>
+                    </dl>
+                    <dl class="col-lg-3 col-md-3 col-sm-3">
+                        <dt>常见问题</dt>
+                        <dd><a href="javascript:;">半点卡</a></dd>
+                        <dd><a href="javascript:;">点礼卡</a></dd>
+                        <dd><a href="javascript:;">移动应用</a></dd>
+                        <dd><a href="javascript:;">电子发票</a></dd>
+                    </dl>
+                    <div class="col-lg-3 col-md-3 col-sm-3 download-section">
+                        <!--二维码-->
+                        <p class="footer-app_code"></p>
+                        <!--扫码下载app-->
+                        <p class="footer-download">
+                            <a href="javascript:;" class="icon">&#xe65c;</a>
+                            <a href="javascript:;" class="icon">&#xe614;</a>
+                            <br/>
+                          	<span>扫码下载APP</span>
+                        </p>
+                    </div>
+                </div>
+                <!--row3-->
+                <div class="row clearfix row3">
+                    <div class="col-lg-10 col-md-10 col-xs-10">
+                        <p>© 2017 Starbucks Corporation</p>
+                        <a href="javascript:;">All rights reserved. 沪ICP备17003747号</a>
+                        <a href="javascript:;"><span class="plice_img"></span> 沪公网安备 31010402000318号</a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-xs-2 foot_link">
+                        <a href="javascript:;" class="weixin_img"></a>
+                        <a href="javascript:;" class="weibo_img"></a>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>

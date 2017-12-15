@@ -1,0 +1,37 @@
+/*list*/
+/*巨幕*/
+.list .jumbotron{
+	color:rgba(255,255,255,0.6);
+	background:url(../img/list/banner.png) no-repeat 0 0/cover;
+}
+.list .jumbotron h3{
+	margin:0;
+	color:#F5F5F5;
+	text-shadow:0 0 2px #ccc;
+	letter-spacing:2px;
+}
+.list .jumbotron p{
+	font-size:15px;
+	letter-spacing:3px;
+}
+/*缩略图*/
+.list .thumbnail{
+	height:330px;
+}
+.list .thumbnail h4{
+	font-weight:700;
+}
+.list .thumbnail h4:hover,
+.list .thumbnail p:hover{
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
